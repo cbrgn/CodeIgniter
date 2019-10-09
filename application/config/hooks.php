@@ -13,7 +13,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 /**
- * Hook to initialize autoloader of the interfaces
+ * ------------------------------------------------------------------------
+ * Hook for initialize autoloader of the interfaces
+ * ------------------------------------------------------------------------
  */
 $hook['pre_system'] = array(
 	'class'    => 'Interface_autoloader',

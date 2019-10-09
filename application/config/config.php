@@ -523,6 +523,11 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 /**
- * Path for the folder with users interfaces
+ * ------------------------------------------------------------------------
+ * Path for the folder with your interfaces
+ * ------------------------------------------------------------------------
+ * 
+ * Set path without the your app folder name
+ * This folder must be in your app folder
  */
-$config['interfaces_folder'] = 'interfaces/user';
+$config['interfaces_folder'] = 'interfaces';
